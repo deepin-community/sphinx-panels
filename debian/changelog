@@ -1,5 +1,12 @@
-template-repository (1.0-1) unstable; urgency=medium
+sphinx-panels (0.6.0-2) unstable; urgency=medium
 
-  * Initial release
+  * source-only upload
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Sandro Tosi <morph@debian.org>  Wed, 24 Nov 2021 21:56:27 -0500
+
+sphinx-panels (0.6.0-1) unstable; urgency=low
+
+  * Initial release; Closes: #997671
+
+ -- Sandro Tosi <morph@debian.org>  Fri, 29 Oct 2021 03:32:41 +0000
+

@@ -1,0 +1,44 @@
+# Install pre-commit hooks via
+# pre-commit install
+
+exclude: >
+    (?x)^(
+      \.vscode/settings\.json
+    )$
+
+repos:
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.2.3
+    hooks:
+    - id: check-json
+    - id: check-yaml
+    - id: end-of-file-fixer
+    - id: trailing-whitespace
+    - id: flake8
+
+  - repo: https://github.com/pre-commit/mirrors-scss-lint
+    rev: v0.59.0
+    hooks:
+    - id: scss-lint
+
+  - repo: https://github.com/mgedmin/check-manifest
+    rev: "0.39"
+    hooks:
+    - id: check-manifest
+
+  - repo: https://github.com/psf/black
+    rev: 20.8b1
+    hooks:
+    - id: black
+
+  - repo: https://github.com/executablebooks/web-compile
+    rev: v0.2.0
+    hooks:
+      - id: web-compile
+        files: >-
+            (?x)^(
+                web-compile-config.yml|
+                sphinx_panels/scss/.*|
+                sphinx_panels/_css/.*
+            )$
