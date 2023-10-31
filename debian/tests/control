@@ -1,0 +1,5 @@
+## Enable this test if the package ship a module and it has tests available
+Tests: unittests
+Depends: @,
+         @builddeps@,
+Restrictions: allow-stderr
