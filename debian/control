@@ -1,8 +1,7 @@
 Source: sphinx-panels
 Section: python
 Priority: optional
-Maintainer: Sandro Tosi <morph@debian.org>
-Uploaders: Debian Python Team <team+python@tracker.debian.org>,
+Maintainer: Debian Python Team <team+python@tracker.debian.org>,
 Build-Depends: debhelper-compat (= 13),
                dh-python,
                python3-all,
@@ -11,7 +10,7 @@ Build-Depends: debhelper-compat (= 13),
                python3-setuptools,
                python3-sphinx <!nodoc>,
                python3-sphinx-rtd-theme <!nodoc>,
-Standards-Version: 4.5.1
+Standards-Version: 4.6.1
 Testsuite: autopkgtest-pkg-python
 Homepage: https://github.com/executablebooks/sphinx-panels
 Vcs-Git: https://salsa.debian.org/python-team/packages/sphinx-panels.git
