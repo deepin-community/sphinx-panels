@@ -1,3 +1,23 @@
+sphinx-panels (0.6.0-4) unstable; urgency=medium
+
+  * orphan
+
+ -- Sandro Tosi <morph@debian.org>  Thu, 29 Feb 2024 00:03:21 -0500
+
+sphinx-panels (0.6.0-3) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository-Browse.
+  * Update standards version to 4.6.1, no changes needed.
+
+  [ Dmitry Shachnev ]
+  * Add a patch to make the tests pass with Sphinx 7 (closes: #1042602).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 04 Nov 2023 11:07:43 +0300
+
 sphinx-panels (0.6.0-2) unstable; urgency=medium
 
   * source-only upload
@@ -9,4 +29,3 @@ sphinx-panels (0.6.0-1) unstable; urgency=low
   * Initial release; Closes: #997671
 
  -- Sandro Tosi <morph@debian.org>  Fri, 29 Oct 2021 03:32:41 +0000
-
